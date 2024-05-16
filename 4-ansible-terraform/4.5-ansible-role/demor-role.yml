@@ -1,0 +1,11 @@
+
+
+---
+- name: use demor role playbook
+  hosts: localhost
+  user: ubuntu
+  become: true
+
+  roles:
+    - role: demor
+      system_manager: admin@golinuxcloud.com
