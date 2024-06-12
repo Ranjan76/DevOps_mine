@@ -1,6 +1,6 @@
 
-resource "aws_s3_bucket" "bacj" {
-  bucket = "my-tf-test-bucket-1abc56482"
+resource "aws_s3_bucket" "b" {
+  bucket = "my-tf-test-bucket"
   acl    = "private"
 
   tags = {
