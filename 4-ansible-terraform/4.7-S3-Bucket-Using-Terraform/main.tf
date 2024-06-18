@@ -1,10 +1,10 @@
 
-resource "aws_s3_bucket" "bucket" {
-  bucket = "my-tf-test-bucket-idbdwbduw2564"
+resource "aws_s3_bucket" rajan" {
+  ranjan = "my-tf-ranjan-hedenh254"
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My ranjan"
     Environment = "Dev"
   }
 }
