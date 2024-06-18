@@ -32,7 +32,7 @@ ansible webservers -m file -a 'dest=/root/sample.txt state=touch mode=600 owner=
 
 # Step 1: Ansible Ad-hoc Command without Configuration Files
 ```
-ansible all -i '18.209.59.137,' -m ping -u ubuntu --private-key ../deployer
+ansible all -i '18.209.59.137,' -m ping -u ubuntu --private-key deployer
 ```
 
 # Step 2: Add Inventory File (inventory.ini)
