@@ -1,0 +1,12 @@
+[ubuntu_vm]
+my_server_1 ansible_host=34.229.210.33
+my_server_2 ansible_host=107.23.214.163
+my_server_3 ansible_host=35.175.252.244
+
+
+[ubuntu:children]
+ubuntu_vm
+
+[ubuntu:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=../deployer
