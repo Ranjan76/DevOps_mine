@@ -1,6 +1,5 @@
-
-resource "aws_s3_bucket" bucket" {
-  ranjan = "my-tf-bucket-hedenh254"
+resource "aws_s3_bucket" "bucket" {
+  bucket = "my-tf-bucket-ranjan46"
   acl    = "private"
 
   tags = {
