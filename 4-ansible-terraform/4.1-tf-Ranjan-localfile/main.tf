@@ -1,4 +1,4 @@
-resource "local_file" "Ranjan_text" {
-  content  = "foo!"
-  filename = "Ranjan.text"
+resource "local_file" "Index_html" {
+  content  = "Hi,how are you?foo!"
+  filename = "Index.html"
 }
