@@ -1,3 +1,6 @@
+Ansible Ad-hoc Command without Configuration Files
+
+
 If you want to run the command for both `ec2-user` (typically for Amazon Linux) and `ubuntu` (typically for Ubuntu), you can use Ansible's group or host_vars functionality to specify the user per host. However, for a quick command-line example, you would need to run two separate commands.
 
 Here are the commands:
