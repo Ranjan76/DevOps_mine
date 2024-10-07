@@ -2,7 +2,7 @@
 ## Copy & paste this commands in your Jenkins, build option, execute shell .
 
 ```
-cd 5-jenkins/5.2-simple-java-program
+cd 3-jenkins/3.1-simple-java-program
 
 ls -l
 
