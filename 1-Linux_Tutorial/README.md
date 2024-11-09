@@ -1,4 +1,4 @@
-# Linux Basic Commands
+# Linux Basic Commands.
 
 This README file provides a brief introduction to some essential Linux commands for beginners.
 
