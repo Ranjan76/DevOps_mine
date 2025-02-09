@@ -1,7 +1,7 @@
 ---
 
 - name: This is a simple Playbook.
-  hosts: my_servers
+  hosts: ubuntu_vm
   become: yes
   gather_facts: yes
 
@@ -13,21 +13,21 @@
         path: /home/ubuntu/index.html
         state: touch
 
-    - name: 3. Apache2
+    - name: 3. Install Nginx
       apt:
-        name: apache2
-        state: present  
+        name: nginx
+        state: present
+        update_cache: yes  # Ensures the package list is updated
 
-
-    - name: 4. Apache2-service
+    - name: 4. Restart Nginx Service
       service:
-        name: apache2
+        name: nginx
         state: restarted  
 
     # # - name: 2. Un-Install git 
     # #   apt:
     # #     name: git
-    # #     state: present  
+    # #     state: present   
 
 
     
